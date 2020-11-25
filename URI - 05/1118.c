@@ -14,7 +14,6 @@ int main(int argc, char const *argv[])
     scanf("%f", &a);
 
     if(a>=0 && a<=10){
-        c++;
         b += a;
     }
     else 
@@ -25,9 +24,9 @@ int main(int argc, char const *argv[])
 
     printf("media = %.2f\n", media);
 
+    printf("novo calculo (1-sim 2-nao");
+    scanf("%f", &c);
         
-    
-
 
 
 
