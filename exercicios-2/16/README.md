@@ -2,3 +2,6 @@
 para homens:  (72.7 * h)-58
 para mulheres:  (62.1*h)-44.7
 
+
+
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-2/16/16.png) 
