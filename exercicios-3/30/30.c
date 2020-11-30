@@ -19,8 +19,6 @@ int main(int argc, char const *argv[])
         } else {
             printf("%d\n", c);
         }
-
-        
     }
     return 0;
 }
