@@ -3,3 +3,5 @@ escreva se ele é EQUILÁTERO, ISÓSCELES ou ESCALENO.
 OBS: triângulo equilátero: Possui os 3 lados iguais.
  triângulo isósceles: Possui 2 lados iguais.
  triângulo escaleno: Possui 3 lados diferentes.
+
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/39/39.png)

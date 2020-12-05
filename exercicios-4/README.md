@@ -8,3 +8,6 @@ ultrapassar R$ 50,00, receberá ainda um desconto de 20 % sobre esse total.
 Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a
 quantidade (em Kg) de maçãs adquiridas e escreva o valor a ser pago pelo
 cliente.
+
+
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/42/42.png)

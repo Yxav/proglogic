@@ -3,3 +3,4 @@ verificações e a média dos exercícios que fazem parte da avaliação. Calcul
 média de aproveitamento, usando a fórmula:
 
 ![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/35/35q.png)
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/35/35.png)

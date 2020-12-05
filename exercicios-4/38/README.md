@@ -7,3 +7,5 @@ Escreva um algoritmo que leia o número de litros vendidos, o tipo de
 combustível (codificado da seguinte forma: 1-álcool 2-Gasolina), calcule e
 imprima o valor a ser pago pelo cliente, sabendo-se que o preço da gasolina é
 de R$ 4,53 o litro e o álcool R$ 4,03.
+
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/38/38.png)
