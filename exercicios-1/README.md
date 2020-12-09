@@ -10,7 +10,7 @@
 
 > Exercícios referentes à lista 1, introdução.
 
-### 📚 Lista 1 
+### 📚 Lista 1 - Introdução
 
 Essa lista contém 8 exercícios básicos, sobre entrada de dados, manipulação de dados e saída dos mesmos.  
 

@@ -10,7 +10,7 @@
 
 > Exercícios referentes à lista 2 -> Estruturas de Seleção.
 
-### 📚 Lista 2
+### 📚 Lista 2 - Estruturas de Seleção
 
 Essa lista contém 11 exercícios, sobre entrada de dados, manipulação de dados e estruturas de seleção, sendo possíveis tomadas de decisões diferentes para determinadas situações.  
 

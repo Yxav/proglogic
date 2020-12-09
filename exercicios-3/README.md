@@ -10,7 +10,7 @@
 
 > Exercícios referentes à lista 3 - Estruturas de seleção.
 
-### 📚 Lista 3
+### 📚 Lista 3 - Estruturas de Seleção
 
 Essa lista contém 13 exercícios, continuando com as estruturas de seleção, mas com adição dos tipos, concatenadas ou aninhadas.  
 
