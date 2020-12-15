@@ -4,6 +4,6 @@
 
 2ª Solução
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/34/b/34_2b.png)
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/34/b/34-2b.png)
 
 
