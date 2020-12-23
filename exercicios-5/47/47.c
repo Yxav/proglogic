@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
         printf("Digite o primeiro valor\n");
         scanf("%f", &v1);
 
-        while (v1 > 10 || v1 <= 0){
+        while (v1 > 10 || v1 < 0){
             printf("Digite o primeiro valor\n");
             scanf("%f", &v1);
         }
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
         printf("Digite o segundo valor\n");
         scanf("%f", &v2);
 
-        while (v2 > 10 || v2 <= 0){
+        while (v2 > 10 || v2 < 0){
             printf("Digite o segundo valor\n");
             scanf("%f", &v2);
         }
