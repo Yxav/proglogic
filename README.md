@@ -15,11 +15,11 @@
 
 O envio das listas está em progresso:
 
-- [x] [Lista 1](https://github.com/Yxav/proglogic/tree/apnp/exercicios-1 "Exercícios Lista 1")
-- [x] [Lista 2](https://github.com/Yxav/proglogic/tree/apnp/exercicios-2 "Exercícios Lista 2")
-- [x] [Lista 3](https://github.com/Yxav/proglogic/tree/apnp/exercicios-3 "Exercícios Lista 3")
-- [x] [Lista 4](https://github.com/Yxav/proglogic/tree/apnp/exercicios-4 "Exercícios Lista 4")
-- [ ] Lista 5
+- [x] [Lista 1](https://github.com/Yxav/proglogic/tree/master/exercicios-1 "Exercícios Lista 1")
+- [x] [Lista 2](https://github.com/Yxav/proglogic/tree/master/exercicios-2 "Exercícios Lista 2")
+- [x] [Lista 3](https://github.com/Yxav/proglogic/tree/master/exercicios-3 "Exercícios Lista 3")
+- [x] [Lista 4](https://github.com/Yxav/proglogic/tree/master/exercicios-4 "Exercícios Lista 4")
+- [x] [Lista 5](https://github.com/Yxav/proglogic/tree/master/exercicios-5 "Exercícios Lista 5")
 
 
 ## 🗄️ Como está organizado?
