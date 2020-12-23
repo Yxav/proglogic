@@ -7,4 +7,4 @@ alunos. Deverá ser informado ao aluno as seguintes opções:
 Ao final dos 100 alunos deverá ser informado o nome e o total de
 votos da Chapa vencedora.
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-5/50/50.png)
+![](https://github.com/Yxav/proglogic/blob/master/exercicios-5/50/50.png)

@@ -16,4 +16,4 @@ Caso o usuário não queira novo cálculo deverá ser informado
 quantas vezes o algoritmo foi utilizado.
 
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-5/51/51.png)
+![](https://github.com/Yxav/proglogic/blob/master/exercicios-5/51/51.png)

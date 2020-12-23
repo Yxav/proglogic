@@ -6,4 +6,4 @@ após informar a média. Se for respondido ‘1’ deve retornar e
 executar um novo cálculo caso contrário deverá encerrar o
 algoritmo.
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-5/47/47.png)
+![](https://github.com/Yxav/proglogic/blob/master/exercicios-5/47/47.png)
