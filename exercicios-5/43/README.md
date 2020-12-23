@@ -3,5 +3,5 @@ informado for ZERO deve ser lido um novo valor) e imprimir o
 resultado da divisão do primeiro pelo segundo. (Utilizar a estrutura
 de repetição com teste no início).
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/43/43.png)
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-5/43/43.png)
 
