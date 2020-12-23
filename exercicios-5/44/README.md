@@ -4,4 +4,4 @@ resultado da divisão do primeiro pelo segundo. (Utilizar a estrutura
 de repetição com teste no final). Acrescente uma mensagem de ‘VALOR INVÁLIDO’ no exercício, caso o segundo valor informado seja ZERO
 
 
-![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/43/43.png)
+![](https://github.com/Yxav/proglogic/blob/apnp/exercicios-4/44/44.png)
