@@ -2,12 +2,12 @@
 
 int main(int argc, char const *argv[])
 {
-    int c=10;
+    int c;
 
     do {
+        c = c + 1;
         printf("%d\n", c);
-        c = c - 1;
-    } while (c >= 1);
+    } while (c < 10);
 
     return 0;
 }

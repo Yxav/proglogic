@@ -1,65 +1,44 @@
 #include <stdio.h>
 
-
 int main(int argc, char const *argv[])
 {
-    float v1,v2,r;
-    int op, repeat_alg, op_alg;
-    repeat_alg = 0;
+    int vote, chapa_situacao, chapa_mod, votos_branco, votes_num;
+    chapa_situacao = 0;
+    chapa_mod = 0;
+    votos_branco = 0;
+    votes_num = 0;
+
     do{
-        printf("Digite o valor 1\n");
-        scanf("%f", &v1);
-
-        while(v1<1){
-            printf("\033[0;31m Valor invalido, digite novamente\n \033[0m");
-            scanf("%f", &v1);        
+    
+        printf("Digite o seu voto:\n1 - Chapa Situacao\n2 - Chapa Modificacao\n3 - Voto em Branco\n");
+        scanf("%d", &vote);
+        
+        while (vote != 1 && vote != 2 && vote != 3){
+            printf("\033[0;31m Voto invalido, digite novamente\n \033[0m");
+            scanf("%d", &vote);
         }
 
-        printf("Digite o valor 2\n");
-        scanf("%f", &v2);
-
-        while(v2<1){
-            printf("\033[0;31m Valor invalido, digite novamente\n \033[0m");
-            scanf("%f", &v2);        
+        if (vote == 1){
+            chapa_situacao++;
+        } 
+        if (vote == 2){
+            chapa_mod++;
         }
-
-        printf("Digite a opcao desejada\n");
-        printf("1 - Adicao\n2 - Subtracao\n3 - Multiplicacao\n4 - Divisao\n");
-        scanf("%d", &op);
-
-        while(op != 1 && op != 2 && op != 3 && op != 4 ){
-            printf("\033[0;31m Opcao invalido, digite novamente\n \033[0m");
-            scanf("%d", &op);        
+        if (vote == 3){
+            votos_branco++;
         }
-
-        switch (op)
-        {
-            case 1:
-                r = v1 + v2;
-                printf("Valor da adicao: %.1f\n", r);
-                break;
-            case 2:
-                r = v1 - v2;
-                printf("Valor da subtracao: %.1f\n", r);
-                break;
-            case 3:
-                r = v1 * v2;
-                printf("Valor da multiplicao: %.1f\n", r);
-                break;
-            case 4:
-                r = v1 / v2;
-                printf("Valor da divisao: %.1f\n", r);
-                break;
-            default:
-                break;
+        votes_num++;
+    } while (votes_num<100);
+    
+    if (chapa_situacao > chapa_mod && chapa_situacao > votos_branco){
+        printf("Chapa Situacao venceu com %d votos\n", chapa_situacao);
+    } else {
+        if (chapa_mod>chapa_situacao && chapa_mod>votos_branco){
+            printf("Chapa Modificacao venceu com %d votos\n", chapa_mod);
+        } else {
+            printf("Nao houve vencedores\n");
         }
-        repeat_alg++;
-        printf("\nNovo calculo?\n1 - Sim\n2 - Nao\n");
-        scanf("%d", &op_alg);
-    } while (op_alg == 1);
-
-    printf("Numero de vezes que o programa rodou: %d\n", repeat_alg);
-
+    }
 
     return 0;
 }
