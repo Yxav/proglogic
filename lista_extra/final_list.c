@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-	int opcode, type, quant_alunos, op_code_alt;
+	int opcode, type, quant_alunos, op_code_alt, pass, c=0;
 	float quantity, total, media, nota, notas=0, alt_hom, alt_mul, total_hom=0, total_mul=0, media_homem, media_mulher, h,m;
 
 
@@ -54,7 +54,7 @@ int main(int argc, char const *argv[])
 				printf("Digite a nota\n");
 				scanf("%f", &nota);
 				while(nota <= 0 && nota >=10){
-					printf("Nota invalida, digite novamente\n");
+					printf("\033[0;31m Nota invalida, digite novamente\n\033[0m");
 					scanf("%f", &nota);
 				}
 				notas += nota;
@@ -90,12 +90,26 @@ int main(int argc, char const *argv[])
 		}
 			media_homem = total_hom / h;
 			media_mulher = total_mul/ m;
-			printf("A media de altura dos homens e: %.2f\n", media_homem);
-			printf("A media de altura das mulheres e: %.2f\n", media_mulher);
+			printf("\033[0;32mA media de altura dos homens e: %.2f\n", media_homem);
+			printf("A media de altura das mulheres e: %.2f\n\033[0m", media_mulher);
 			break;
 		
 		case 4:
 			printf("\033[0;33m Exercicio: Verificacao de senha \033[0m\n\n");
+			printf("Digite a senha\n");
+			scanf("%d", &pass);
+
+			while(pass != 600121){
+			printf("\033[0;31m ACESSO NEGADO\n\033[0m");
+			scanf("%d", &pass);
+			c++;
+			if (c==5){
+				printf("\033[0;31m Senha bloqueada\n \033[0m");
+				break;
+				}
+			} if (pass == 600121){
+				printf("\033[0;32m ACESSO PERMITIDO \033[0m\n");
+			}
 			break;
 
 		case 5:
