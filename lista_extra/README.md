@@ -34,6 +34,10 @@ Essa pasta contém um só arquivo, no qual, engloba 5 exercícios, com opção d
 
 
 ### Diagrama de Chapin
+## OBS: Há alterações no código que ainda não foram feitas no Digrama de Chapin
+
 ![](https://github.com/Yxav/proglogic/blob/apnp/lista_extra/lista_extra.png)
+
+
 
 
