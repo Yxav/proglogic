@@ -2,8 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-	int opcode, type, quant_alunos, op_code_alt, pass, c=0;
-	float quantity, total, media, nota, notas=0, alt_hom, alt_mul, total_hom=0, total_mul=0, media_homem, media_mulher, h,m;
+	int opcode, type, quant_alunos, op_code_alt, pass, c=0, year_car, menu;
+	float quantity, total, media, nota, notas=0, alt_hom, alt_mul, total_hom=0, total_mul=0, media_homem, media_mulher, h,m, value_car, total_car;
 
 
 	printf("\033[0;33m BEM-VINDO Á MAQUINA DE EXERCICIOS \033[0m\n\n");
@@ -114,11 +114,27 @@ int main(int argc, char const *argv[])
 
 		case 5:
 			printf("\033[0;33m Exercicio: Desconto de veiculo \033[0m\n\n");
+			do{
+				printf("Digite o ano do veiculo\n");
+				scanf("%d", &year_car);
+
+				printf("Digite o valor do veiculo\n");
+				scanf("%f", &value_car);
+
+				if (year_car <= 2000){
+					total_car = value_car - (value_car * 0.12);
+					} else {
+						total_car = value_car - (value_car * 0.07);
+					}
+				printf("\033[0;32m O valor total e: R$ %.3f\n\033[0m", total_car);
+				printf("Deseja fazer um novo calculo?\n1 - Sim\n2 - Nao ");
+				scanf("%d", &menu);
+				} 
+			while (menu == 1);
 			break;
-
+	default:
+		printf("\033[0;31m Opcao invalida\n \033[0m");
+		break;
 	}
-
-
-
 	return 0;
 }
