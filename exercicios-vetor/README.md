@@ -14,9 +14,7 @@
 
 Essa lista contém 9 exercícios, sobre manipulação de vetores. 
 
-Os três primeiros com uma abordagem diferente do comum, com apenas um laço for, tanto para atribuir um valor, que é gerado pelo próprio programa - sem interação do usuário - e para impressão do vetor na tela. 
-
-O valor para ser armazenado no vetor, é fixo (exercicio 1) e/ou gerado pelo index do laço for(exercícios 2 e 3), a impressão no mesmo laço não é interrompida, pois não há interação com o usuário, então não há mais nada pra aparecer na tela a não ser a impressão do valor do vetor, no atual indice. 
+Através da estrutura de laços de repetição, vista nas aulas anteriores, foi possível realizar esta lista.
 
 
 
