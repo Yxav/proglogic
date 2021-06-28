@@ -10,7 +10,9 @@ int main(int argc, char const *argv[])
 		} else {
 			B[index] = 0;
 		}
-		printf("%d\n", B[index]);
+	}
+	for (int index = 0; index < 10; ++index){
+		printf("%d ", B[index]);
 	}
 	return 0;
 }
