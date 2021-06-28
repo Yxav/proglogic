@@ -6,6 +6,8 @@ int main(int argc, char const *argv[])
 
 	for (int index = 0; index < 10; ++index){
 		X[index] = 30;
+	}	
+	for (int index = 0; index < 10; ++index){
 		printf("%d ", X[index]);
 	}
 	return 0;
