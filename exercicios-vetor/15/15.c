@@ -6,19 +6,19 @@ int main(int argc, char const *argv[])
 
 	printf("Insira o valor do vetor: \n");
 	for (int index = 0; index < 10; ++index){
-		scanf("%d", &U[index]);
+		scanf("%d", &S[index]);
 	}
 	for (int index = 0; index < 10; ++index){
 		if (index < 5) {
-			aux = U[index];
-			U[index] = U[count];
-			U[count] = aux;
+			aux = S[index];
+			S[index] = S[count];
+			S[count] = aux;
 			count--;
 		}
 	}
 
 	for (int index = 0; index < 10; ++index){
-		printf("%d ", U[index]);
+		printf("%d ", S[index]);
 	}
 
 
