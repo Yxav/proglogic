@@ -1,4 +1,4 @@
-# Exercícios Lógica de Programação - APNP 
+# Exercícios Lógica de Programação - Bloco 2 
 
 
 
@@ -15,18 +15,13 @@
 
 O envio das listas está em progresso:
 
-- [x] [Lista 1](https://github.com/Yxav/proglogic/tree/master/exercicios-1 "Exercícios Lista 1")
-- [x] [Lista 2](https://github.com/Yxav/proglogic/tree/master/exercicios-2 "Exercícios Lista 2")
-- [x] [Lista 3](https://github.com/Yxav/proglogic/tree/master/exercicios-3 "Exercícios Lista 3")
-- [x] [Lista 4](https://github.com/Yxav/proglogic/tree/master/exercicios-4 "Exercícios Lista 4")
-- [x] [Lista 5](https://github.com/Yxav/proglogic/tree/master/exercicios-5 "Exercícios Lista 5")
-- [x] [Lista Extra](https://github.com/Yxav/proglogic/tree/master/lista_extra "Lista extra")
+- [x] [Lista 3](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_03 "Exercícios Lista 3")
 
 
 ## 🗄️ Como está organizado?
 
 Cada lista se é referente à um conteudo, por exemplo:
 
-> Lista 2 - É referente às estruturas de seleção.
+> Lista 3 - É referente a strings e matrizes.
 
 Em cada pasta há um guia informando qual conteúdo foi trabalhado.
