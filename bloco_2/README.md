@@ -16,6 +16,7 @@
 O envio das listas está em progresso:
 
 - [x] [Lista 3](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_03 "Exercícios Lista 3")
+- [x] [Lista 4](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_04 "Exercícios Lista 4")
 
 
 ## 🗄️ Como está organizado?
@@ -23,5 +24,5 @@ O envio das listas está em progresso:
 Cada lista se é referente à um conteudo, por exemplo:
 
 > Lista 3 - É referente a strings e matrizes.
+> Lista 4 - Referente a funções e retorno de valores.
 
-Em cada pasta há um guia informando qual conteúdo foi trabalhado.
