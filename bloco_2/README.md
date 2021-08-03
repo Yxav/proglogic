@@ -24,5 +24,4 @@ O envio das listas está em progresso:
 Cada lista se é referente à um conteudo, por exemplo:
 
 > Lista 3 - É referente a strings e matrizes.
-> Lista 4 - Referente a funções e retorno de valores.
 
