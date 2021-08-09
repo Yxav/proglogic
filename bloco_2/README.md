@@ -17,6 +17,7 @@ O envio das listas está em progresso:
 
 - [x] [Lista 3](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_03 "Exercícios Lista 3")
 - [x] [Lista 4](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_04 "Exercícios Lista 4")
+- [x] [Lista 5](https://github.com/Yxav/proglogic/tree/master/bloco_2/lista_05 "Exercícios Lista 5")
 
 
 ## 🗄️ Como está organizado?
