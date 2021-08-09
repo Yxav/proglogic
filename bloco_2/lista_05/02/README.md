@@ -1,0 +1,1 @@
+Escreva uma função que receba 3 notas de um aluno (deverá aceitar somente valores de zero a dez) e uma letra. Se a letra for A a função retorna a média aritmética das notas do aluno, se for P, a sua média ponderada (pesos: 5, 3 e 2), se for M retorna a maior nota do aluno das três notasenviadas afunção
