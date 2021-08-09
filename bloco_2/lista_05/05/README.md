@@ -1,0 +1,3 @@
+a) Escreva um subalgoritmo chamado maiorNumeroque receba como entrada dois inteiros positivos e retorne o maior deles ou o valor -1 se eles forem iguais. Considere que os valores de entrada são sempre positivos (Não é necessário validar).Entrada: Dois inteiros positivos.Retorno: O maior deles ou -1 se eles forem iguais.
+
+b) Escreva um algoritmo para ler um valor N (considere que o valor informado será sempre positivo). A seguir ler N duplas de inteiros. Para cada dupla informada exibir o maior elemento ou a frase “Eles são iguais”. Para obter o maior elemento deve ser utilizado o subalgoritmo maiorNumero
