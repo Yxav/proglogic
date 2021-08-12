@@ -48,7 +48,7 @@ float averageCalc(float value1, float value2, float value3, char option){
 		return (value1+value2+value3) / 3;
 	} 
 		else if (toupper(option) == 'P') {
-			return (value1 * 5) + (value2 * 3) + (value3 * 2) / 8;
+			return ((value1 * 5) + (value2 * 3) + (value3 * 2)) / 10;
 		}
 		else if (toupper(option) == 'M') {
 			return higherValue(value1, value2, value3);
